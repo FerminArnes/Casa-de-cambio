@@ -1,0 +1,60 @@
+body {
+    background-image: url(../img/168-1683107_big.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: #1c66f0;
+}
+
+.formulario {
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #dbbc82;
+}
+
+#uno, #dos, #tres, #cuatro {
+    width: 40px;
+    height: 10px;
+}
+
+#valor {
+    font-size: 25px;
+    background-color: #dbbc82;
+}
+
+#cotizador {
+    font-size: 25px;
+    background-color: #dbbc82;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#cotizador:hover {
+    background-color: black;
+    color: #dbbc82;
+}
+
+.main {
+    background-color: #252424dc;
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}

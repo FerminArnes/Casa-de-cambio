@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Desafio JS 1</title>
+</head>
+<body>
+
+    <div class="box">
+        <nav class="main">
+            <h1>Casa de cambio</h1>
+
+            <form class="formulario">
+                <p>Selecciona moneda a cambiar:</p>
+                <input type="radio" name="cambio" id="uno">Dólar
+                <input type="radio" name="cambio" id="dos">Euro
+                <input type="radio" name="cambio" id="tres">Real
+                <input type="radio" name="cambio" id="cuatro">Libra Esterlina
+                <p>Ingrese monto:</p>
+                <input type="number" id="valor" min="1" max="999999999">
+                <input type="button" id="cotizador" value="Cotizar" onclick="convertir()">
+            </form>
+        </nav>
+    </div>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
